@@ -19,10 +19,7 @@ Usage
 
 Create RxLocation typically in ApplicationComponent (in our case, ApplicationComponent.java):
 
-<code>
-/**
- * Add the modules you can inject and will be available anywhere you require
- */
+```
 @ApplicationScope
 @Component(modules = LocationModule.class)
 public interface ApplicationComponent {
@@ -34,11 +31,11 @@ public interface ApplicationComponent {
 
     void injectApplication(BaseApp application);
 }
-</code>
+```
 
-Example Usage
+# Example Usage
 
-<code>
+```
  getLocationApi().observeLocationChanges()
                 .observeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
@@ -65,5 +62,5 @@ Example Usage
                     }
                 });
     }
-</code>
+```
 
