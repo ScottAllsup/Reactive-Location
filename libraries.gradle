@@ -1,0 +1,10 @@
+ext {
+    // Android
+    compiledSDKVersion = 30
+    buildToolsVersion = '30.0.2'
+    minSDKVersion = 23
+    targetSDKVerion = 30
+
+    dagger2Version = '2.38'
+    dagger2CompilerVersion = '2.38'
+}
