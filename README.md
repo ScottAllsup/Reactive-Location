@@ -6,11 +6,6 @@ This library is based on RxJava2.
 Core
 Description:
 
-
-# Dependencies
-
-implementation 'com.TDI.RxLocation:x.x.x'
-
 Usage
 
 //TODO and write Working sample is provided in app module.
