@@ -2,13 +2,11 @@
 
 Simple reactive extension, that adds support to Dagger2 based projects and provides location updates.
 
-This library is based on RxJava2.
-Core
 Description:
 
 Usage
 
-//TODO and write Working sample is provided in app module.
+//TODO Add Unit Testing
 
 # Initialization
 
